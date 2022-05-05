@@ -27,11 +27,11 @@ export default function Home(props) {
 
 
 export async function getStaticProps(context) {
-  const resp = await axios.get("http://localhost:1337/api/hero");
-  console.log(resp);
+  const resp = await axios.get("https://q8j4bmr9.api.sanity.io/v2021-10-21/data/query/production?query=*%5B_type%20%3D%3D%20%22hero%22%5D%20");
+  console.log(resp.data.result[0].mainheading);
   return {
     props: {
-      header: resp.data.data.attributes.mainheading
+      header: resp.data.result[0].mainheading
     }, // will be passed to the page component as props
   }
 }

@@ -1,8 +1,13 @@
 import React from "react";
+import Tilt from 'react-parallax-tilt';
+
+
 const Hero = (props)=>{
     return (
+      <Tilt>
         <section className="min-h-screen flex items-center px-4 sm:px-20 xl:px-36">
-    <div className="xl:basis-2/3">
+   
+   <div className="xl:basis-2/3">
       <div
         className="text-3xl sm:text-5xl xl:text-left text-center  font-expletussans animate__animated     animate__flipInX"
 
@@ -54,7 +59,9 @@ const Hero = (props)=>{
         </a>
       </div>
     </div>
+
   </section>
+</Tilt>
     );
 }
 

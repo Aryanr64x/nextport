@@ -1,5 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade'
+import Tilt from 'react-parallax-tilt';
+
 const LatestWorks  = ()=>{
     return (
         <section className="mt-48 px-4 sm:px-20 xl:px-36">
@@ -9,14 +11,16 @@ const LatestWorks  = ()=>{
         <div className="mt-8 grid grid-cols-1   lg:grid-cols-2 gap-y-4">
             <div className="p-8 order-1">
               <Fade left>
+              <Tilt>
               <img className="h-full rounded-md hover:shadow-lg hover:shadow-black transition-all duration-300 cursor-pointer"
                     src="https://i.ibb.co/L9tZYsT/cap2.png" alt="" />
+              </Tilt>
               </Fade>
             </div>
             <div className="flex flex-col justify-center order-2">
               <Fade right>
               <div className="text-center underline text-2xl cursor-pointer">
-                    TeamColab
+                    teamcolab.com
                 </div>
                 <div className="text-md xl:text-lg  p-4 xl:p-8 text-center lg:text-left">
                     A Concept website for a team collaboration app , The website is enriched with up to date
@@ -30,7 +34,7 @@ const LatestWorks  = ()=>{
             <div className="flex flex-col justify-center order-5 lg:order-4">
                <Fade left>
                <div className="text-center underline text-2xl cursor-pointer">
-                    Chatgram
+                    chatgram.com
                 </div>
                 <div className="text-md xl:text-lg  p-4 xl:p-8 text-center lg:text-left">
                     A Concept website for a team collaboration app , The website is enriched with up to date
@@ -40,8 +44,11 @@ const LatestWorks  = ()=>{
             </div>
             <div className="p-8 order-4 lg:order-5">
               <Fade right>
-              <img className="h-full rounded-md hover:shadow-lg hover:shadow-black transition-all duration-300 cursor-pointer"
+                <Tilt>
+
+                <img className="h-full rounded-md hover:shadow-lg hover:shadow-black transition-all duration-300 cursor-pointer"
                     src="https://i.ibb.co/yV3nwY1/Capture.png" alt="" />
+                </Tilt>
               </Fade>
 
             </div>

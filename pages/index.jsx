@@ -17,6 +17,8 @@ export default function Home(props) {
       <Hero  header={props.header}/>
       <LatestWorks />
       <Testimonials />
+      <Contact />
+      <Footer />
       {/* <Services />
    
       

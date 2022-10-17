@@ -1,6 +1,6 @@
 const ContactRight = ()=>{
     return (
-        <div className="flex flex-col justify-center px-44">
+        <div className="flex flex-col justify-center px-2 sm:px-20 xl:px-44 mt-16">
             <div className="text-lg font-paytone">
                     Have a Query? 
             </div>

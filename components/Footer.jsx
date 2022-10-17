@@ -2,13 +2,13 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <section className="mt-44 text-xl  px-44 py-20 bg-secondary text-primary">
-            <div className="grid grid-flow-col columns-12">
+        <section className="mt-44 text-xl px-4 sm:px-18 lg:px-44 py-20 bg-secondary text-primary">
+            <div className="md:grid md:grid-flow-col md:columns-12">
                 <div className="col-span-4">
                     <div className="text-3xl font-paytone">
                         SAKET
                     </div>
-                    <div>
+                    <div >
                         <div className="flex">
                             <a href="#" className="hover:opacity-80 block hover:scale-150 transition-all duration-300">
                                 <svg className="inline h-6 w-6 fill-primary mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" /></svg>
@@ -34,9 +34,9 @@ const Footer = () => {
                     
                 </div>
 
-                <div className="col-span-2">
+                <div className="col-span-2 mt-16 md:mt-0 flex flex-wrap items-center">
                     <a href="#" className="bg-primary text-secondary py-2 px-4 text-xl font-bold mr-4"> CONTACT ME </a>
-                    <a href="#" className="bg-secondary py-2 px-4 border-2 border-primary font-bold hover:bg-primary hover:text-secondary transition-all duration-500"> SEE MY PAST WORK </a>
+                    <a href="#" className="bg-secondary py-2 px-4 border-2 mt-2 sm:mt-0 border-primary font-bold hover:bg-primary hover:text-secondary transition-all duration-500"> SEE MY PAST WORK </a>
 
                 </div>
             </div>

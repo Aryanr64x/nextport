@@ -6,26 +6,31 @@
 @tailwind utilities;
 
 
-
+body, html{
+    overflow-x: hidden;
+}
 
 .testimonial1{
     background-image: url('../public/testimonial1.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 
 }
 
 
 .testimonial2{
     background-image: url('../public/Clienttest2.PNG');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     
 }
 
 .testimonial3{
     background-image: url('../public/Clienttest3.PNG');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 

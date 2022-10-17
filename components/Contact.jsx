@@ -44,11 +44,11 @@ const Contact = () => {
 
 
     return (
-        <section className="pt-44 bg-primary px-32">
+        <section className="pt-44 bg-primary px-2 sm:px-12 xl:px-32">
             <h2 className="text-3xl sm:text-5xl lg:6xl text-center font-paytone">
                 CONTACT NOW
             </h2>
-            <div className="grid grid-cols-2 mt-16">
+            <div className="lg:grid grid-cols-2 mt-16">
                 <ContactLeft />
                 <ContactRight />
             </div>

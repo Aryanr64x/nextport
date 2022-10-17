@@ -2,27 +2,27 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 const SingleWork = ({ reverse, image })=>{
     const [showText, setShowText] = useState(false)
-    const r = ((reverse) ? "flex-row-reverse" : "");
-    const classname = "flex justify-between items-center gap-52 mt-32 "+r;
+    const r = ((reverse) ? "flex-col-reverse lg:flex-row-reverse" : "flex-col-reverse");
+    const classname = "flex justify-between items-center gap-8 lg:gap-52 mt-32 "+r;
     console.log(classname)
     return (
         <div className={classname}>
-        <div className="flex flex-col justify-center">
-          <div className="text-4xl font-paytone">
+        <div className="flex flex-col  justify-center items-center lg:items-start">
+          <div className="text-3xl sm:text-4xl font-paytone">
             TEAM APP WEBSITE
           </div>
-          <div className="mt-4">
-            <span className=" text-primary bg-tertiary font-semibold mr-4 px-2 py-1 rounded" >
+          <div className="mt-4 flex">
+            <span className=" text-primary bg-tertiary font-semibold mr-4 px-2 py-1 rounded text-sm sm:text-base" >
               TeamApp
             </span>
-            <span className="text-primary bg-tertiary font-semibold mr-4  px-2 py-1 rounded">
+            <span className="text-primary bg-tertiary font-semibold mr-4  px-2 py-1 rounded text-sm sm:text-base">
               Responsive Design
             </span>
-            <span className="text-primary bg-tertiary font-semibold mr-4  px-2 py-1 rounded">
+            <span className="text-primary bg-tertiary font-semibold mr-4  px-2 py-1 rounded text-sm sm:text-base">
               Startup
             </span>
           </div>
-          <div className="text-lg mt-8">
+          <div className="text-center sm:text-left sm:text-lg mt-8">
             This is a concept website built for a startup app , that is
             basically a chat app for teams over the internet
           </div>

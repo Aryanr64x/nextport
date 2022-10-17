@@ -1,6 +1,6 @@
 const ContactLeft = ()=>{
     return (
-        <div className="flex flex-col justify-center px-44">
+        <div className="flex flex-col justify-center items-center lg:items-start px-2 sm:px-20 xl:px-44">
         <div className="font-paytone text-lg">
             CALL OR WHATSAPP ME
         </div>

@@ -6,6 +6,7 @@ import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import "animate.css/animate.min.css";
 import axios from 'axios';
+import Testimonials from "../components/Testimonials"
 
 
 export default function Home(props) {
@@ -14,12 +15,14 @@ export default function Home(props) {
 
     <div className="bg-primary text-white">
       <Hero  header={props.header}/>
-      <Services />
       <LatestWorks />
+      <Testimonials />
+      {/* <Services />
+   
       
       <Tool />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }

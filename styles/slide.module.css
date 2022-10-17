@@ -1,0 +1,10 @@
+.visit{
+    display: block;
+    opacity: 70%;
+    transition-duration: 300ms;
+}
+
+.visit:hover{
+    transform: translateX(20px);
+    opacity: 100%;
+}

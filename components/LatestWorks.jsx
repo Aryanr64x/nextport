@@ -6,14 +6,14 @@ import SingleWork from './SingleWork';
 
 const LatestWorks = () => {
   return (
-    <section className="mt-48 px-4 sm:px-20 xl:px-36 pb-40">
+    <section className="mt-48 px-4 sm:px-20 xl:px-36 pb-40" id="last-works">
       <h2 className="text-3xl sm:text-5xl lg:6xl text-center font-paytone">
         LATEST WORKS
       </h2>
       <div className="works mt-24">
-        <SingleWork  reverse={true} image={'/Sample.jpg'} />
-        <SingleWork image={'/Sample.jpg'} />
-        <SingleWork  reverse={true} image={'/Team.jpg'} />
+        <SingleWork  reverse={true} image={'/neovis_thumb.png'}  name="Neovision Marketing" info="This is a website made for a facebook marketing company called Neovision Marketing." tag1="Startup" tag2="Responsive" tag3="Modern" link="" />
+        <SingleWork image={'/dclinicthumb.png'}   name="Family Clinic Website" info="This is a website made for Dr Dayal's Family Clinic Website which is conversion centric." tag1="Clinic" tag2="Responsive" tag3="Professional" link="" />
+        <SingleWork  reverse={true} image={'/Team.jpg'}  name="Team App Website" info="This is a website made for Dr Dayal's Family Clinic Website which is conversion centric." tag1="Clinic" tag2="Responsive" tag3="Professional" link=""/>
 
       </div>
     </section>

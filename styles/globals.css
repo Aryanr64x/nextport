@@ -8,6 +8,7 @@
 
 body, html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .testimonial1{
@@ -20,7 +21,7 @@ body, html{
 
 
 .testimonial2{
-    background-image: url('../public/Clienttest2.PNG');
+    background-image: url('../public/test2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

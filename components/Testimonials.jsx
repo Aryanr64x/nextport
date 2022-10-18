@@ -3,14 +3,16 @@ import { Carousel } from 'primereact/carousel';
 import 'primereact/resources/themes/lara-light-indigo/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const Testimonials = () => {
-    const products = ['testimonial1', 'testimonial2', 'testimonial3'];
+    const products = ['testimonial1', 'testimonial2'];
     const itemTemplate = (item) => {
         return (
-            <div>
+            <div className="mt-32" id="testimonials">
                 <h2 className="text-3xl sm:text-5xl lg:6xl text-center font-paytone">
-                    HAPPY CLIENTS
+                    HAPPY CLIENTS ☺️
                 </h2>
                 <div className={'min-h-screen flex flex-col justify-center items-center mt-8 ' + item}>
 

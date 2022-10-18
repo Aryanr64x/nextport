@@ -44,7 +44,7 @@ const Contact = () => {
 
 
     return (
-        <section className="pt-44 bg-primary px-2 sm:px-12 xl:px-32">
+        <section className="pt-44 bg-primary px-2 sm:px-12 xl:px-32" id="contact">
             <h2 className="text-3xl sm:text-5xl lg:6xl text-center font-paytone">
                 CONTACT NOW
             </h2>

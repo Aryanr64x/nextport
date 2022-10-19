@@ -1,5 +1,4 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade'
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import SingleWork from './SingleWork';

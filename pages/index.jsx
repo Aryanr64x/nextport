@@ -1,7 +1,6 @@
 import Hero from "../components/Hero"
 import LatestWorks from "../components/LatestWorks"
-import Services from "../components/Services"
-import Tool from "../components/Tool"
+
 import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import "animate.css/animate.min.css";
@@ -19,12 +18,7 @@ export default function Home(props) {
       <Testimonials />
       <Contact />
       <Footer />
-      {/* <Services />
-   
-      
-      <Tool />
-      <Contact />
-      <Footer /> */}
+     
     </div>
   )
 }

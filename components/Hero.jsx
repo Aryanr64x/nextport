@@ -1,5 +1,4 @@
 import React from "react";
-import Tilt from 'react-parallax-tilt';
 
 import AOS from 'aos';
 import "aos/dist/aos.css";

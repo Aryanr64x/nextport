@@ -6,13 +6,17 @@ import Footer from "../components/Footer"
 import "animate.css/animate.min.css";
 import axios from 'axios';
 import Testimonials from "../components/Testimonials"
-
+import Head from "next/head";
 
 export default function Home(props) {
 
   return (
 
     <div className="bg-primary text-white">
+      <Head>
+        <title>SAKEDES</title>
+        <link rel="shortcut icon" href="/Webclip.png" />
+      </Head>
       <Hero  header={props.header}/>
       <LatestWorks />
       <Testimonials />

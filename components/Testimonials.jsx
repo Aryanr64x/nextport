@@ -8,8 +8,9 @@ import "aos/dist/aos.css";
 
 const Testimonials = () => {
     const products = [
+        { img: '/client.jpg', prof: "Doctor , Clinic Owner,", name: "RAKESH DAYAL", words: "My clinic saw boost in customer sales right when I got my professional website built from here . The best part was that there is a free hosting plan that I can opt !. ", item: '/test2.png', link: "https://dayalclinic.webflow.io/" },
     { item: '/testimonial1.png', name: "SHIVAM KUMAR", prof: "Owner of NeoVison Marketing", words: "I never knew the impact that a professional well designed website can have on my business. Working with saket, was one of the most right decision I made for my business in its early days, he is skilled, humbled and the best of all , his rate is the most reasonable ", img: "/client2.jpg", link: "https://neovisionmarketing.netlify.app/" },
-    { img: '/client.jpg', prof: "Doctor , Clinic Owner,", name: "RAKESH DAYAL", words: "My clinic saw boost in customer sales right when I got my professional website built from here . The best part was that there is a free hosting plan that I can opt !. ", item: '/test2.png', link: "https://dayalclinic.webflow.io/" }
+
     ];
     const itemTemplate = (item) => {
         return (
@@ -17,7 +18,7 @@ const Testimonials = () => {
                 <h2 className="text-3xl sm:text-5xl lg:6xl text-center font-paytone">
                     HAPPY CLIENTS ☺️
                 </h2>
-                <div  style={{backgroundImage: "url("+item.item+")"}} className={'min-h-screen flex flex-col justify-center items-center mt-8 testimonial' }>
+                <div style={{ backgroundImage: "url(" + item.item + ")" }} className={'min-h-screen flex flex-col justify-center items-center mt-8 testimonial'}>
 
                     <div className="md:grid grid-cols-3 grid-flow-col gap-x-8 px-4 py-8 bg-primary bg-opacity-80 max-w-2xl md:max-w-3xl shadow-2xl">
                         <div className="col-span-1 flex justify-center">

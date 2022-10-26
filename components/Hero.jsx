@@ -14,7 +14,7 @@ const Hero = (props)=>{
         <div className="min-h-screen  px-4 sm:px-12 lg:px-32">
           <div className="flex justify-between pt-8 items-center">
             <div className="text-secondary text-2xl font-paytone text-shadow">
-                SAKET 
+                SAKETDES
             </div>
             <div className="hidden md:flex items-center ">
                

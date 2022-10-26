@@ -55,7 +55,7 @@ const ContactRight = () => {
                     (dialog) ? (
                         <div className="bg-secondary text-primary py-4 px-2  rounded font-semibold">
                             {
-                                (dialog.status === "SUCCESS")? (<span> Thanks for contacting us . We will reach you back on the provided email soon </span>) : (<span> Sorry can't send your query at the moment, Try calling / messaging or emailing in the contact links  </span>)
+                                (dialog.status === "SUCCESS")? (<span> Thanks for contacting us . We will reach you back on the provided email soon </span>) : (<span> Sorry { "can't" } send your query at the moment, Try calling / messaging or emailing in the contact links  </span>)
                             }
                         </div>) : (
 

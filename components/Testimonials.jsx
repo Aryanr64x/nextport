@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 const Testimonials = () => {
     const products = [
         { img: '/client.jpg', prof: "Doctor , Clinic Owner,", name: "RAKESH DAYAL", words: "My clinic saw boost in customer sales right when I got my professional website built from here . The best part was that there is a free hosting plan that I can opt !. ", item: '/test2.png', link: "https://dayalclinic.webflow.io/" },
-    { item: '/testimonial1.png', name: "SHIVAM KUMAR", prof: "Owner of NeoVison Marketing", words: "I never knew the impact that a professional well designed website can have on my business. Working with saket, was one of the most right decision I made for my business in its early days, he is skilled, humbled and the best of all , his rate is the most reasonable ", img: "/client2.jpg", link: "https://neovisionmarketing.netlify.app/" },
+    { item: '/testimonial1.png', name: "SHIVAM KUMAR", prof: "Owner of NeoVison Marketing", words: "I never knew the impact that a professional well designed website can have on my business. Working with saket, was one of the most right decision I made for my business in its early days, he is skilled, humbled and the best of all , his rate is the most reasonable (One Time Pay of $5)", img: "/client2.jpg", link: "https://neovisionmarketing.netlify.app/" },
 
     ];
     const itemTemplate = (item) => {

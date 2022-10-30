@@ -18,7 +18,8 @@ export default function Home(props) {
         <link rel="shortcut icon" href="/Webclip.png" />
         <meta property="og:title" content="Sakedes: Affordable WebDesign and WebDevelopment Services" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/hero.PNG" />
+        <meta property="og:image" content="https://i.ibb.co/RPxKWM4/hero.png" />
+
        
       </Head>
       <Hero  header={props.header}/>

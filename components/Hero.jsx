@@ -27,7 +27,8 @@ const Hero = (props)=>{
             <div className="grid grid-cols-3">
               <div className="col-span-3 md:col-span-2">
                 <div  className="text-4xl sm:text-5xl lg:text-6xl font-paytone text-shadow" data-aos="fade-right">
-                    I CREATE WEBSITES  FOR <span className="ml-1 text-secondary"> SMALL BUSINESSES </span> AT THE MOST AFFORDABLE COST
+                    AFFORDABLE WEBDESIGN AND WEB DEVELOPMENT SERVICES FOR <span className="ml-1 text-secondary"> SMALL BUSINESSES </span> 
+                    
                 </div>
                 <div className="mt-4 text-xl " data-aos="fade-right"   data-aos-delay="350">
                     Be it a blog or a personal portfolio, Be it a clinic website or maybe a restaurant website or may be bakery website or may any other

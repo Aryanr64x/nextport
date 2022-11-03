@@ -3,6 +3,7 @@ import React from "react";
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Navbar from "./Navbar";
 
 const Hero = (props)=>{
     useEffect(()=>{
@@ -12,18 +13,9 @@ const Hero = (props)=>{
     }, [])
     return (
         <div className="min-h-screen  px-4 sm:px-12 lg:px-32">
-          <div className="flex justify-between pt-8 items-center">
-            <div className="text-secondary text-2xl font-paytone text-shadow">
-                SAKEDES
-            </div>
-            <div className="hidden md:flex items-center ">
-               
-                <div className="font-semibold mr-8 text-lg hover:opacity-80"> <a href="#last-works">Past Works</a></div>
-                <div className="font-semibold mr-8 text-lg hover:opacity-80"> <a href="#testimonials">Testimonials</a> </div>
-                <div className="font-semibold mr-8 text-lg hover:opacity-80 bg-secondary text-primary rounded-lg py-1 px-2  border-secondary  hover:bg-secondary hover:text-primary transition-all duration-500"><a href="#contact">Contact Me</a></div>
-            </div>
-          </div>
-          <div className="pt-40 ">
+        
+          <Navbar />
+          <div className="pt-36 ">
             <div className="grid grid-cols-3">
               <div className="col-span-3 md:col-span-2">
                 <div  className="text-4xl sm:text-5xl lg:text-6xl font-paytone text-shadow" data-aos="fade-right">

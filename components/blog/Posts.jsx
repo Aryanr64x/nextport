@@ -6,7 +6,7 @@ const Posts = ({ posts }) => {
             <div className="grid grid-cols-3 gap-x-8 gap-y-8">
                {
                     posts.map((post)=>{
-                        return (<SinglePost post = {post} />)
+                        return (<SinglePost post = {post} key={post.slug.current} />)
                     })
                }
             </div>

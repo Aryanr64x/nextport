@@ -35,8 +35,8 @@ const Footer = () => {
                 </div>
 
                 <div className="col-span-2 mt-16 md:mt-0 flex flex-wrap items-center">
-                    <a href="#" className="bg-primary text-secondary py-2 px-4 text-xl font-bold mr-4"> CONTACT ME </a>
-                    <a href="#" className="bg-secondary py-2 px-4 border-2 mt-2 sm:mt-0 border-primary font-bold hover:bg-primary hover:text-secondary transition-all duration-500"> SEE MY PAST WORK </a>
+                    <a href="#contact" className="bg-primary text-secondary py-2 px-4 text-xl font-bold mr-4"> CONTACT ME </a>
+                    <a href="last-works" className="bg-secondary py-2 px-4 border-2 mt-2 sm:mt-0 border-primary font-bold hover:bg-primary hover:text-secondary transition-all duration-500"> SEE PAST WORK </a>
 
                 </div>
             </div>

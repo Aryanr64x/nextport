@@ -27,7 +27,7 @@ const Hero = ()=>{
                    SMALL BUSINESS! Get a professional website built that actually works and get it hosted for FREE
                 </div>
                 <div className="mt-16" data-aos="fade-right"   data-aos-delay="700">
-                  <a href="#contact" className="bg-secondary text-primary py-2 px-4 text-xl font-bold mr-4"> CONTACT ME </a>
+                  <a href="#contact" className="bg-secondary text-primary py-2 px-4 sm:text-xl text-base font-bold mr-4"> CONTACT ME </a>
                   <a href="#last-works" className="bg-primary py-2 px-4 border-2 border-secondary font-bold hover:bg-secondary hover:text-primary transition-all duration-500"> SEE MY PAST WORK </a>
                 </div>
               </div>

@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Navbar from "./Navbar";
 
-const Hero = (props)=>{
+const Hero = ()=>{
     useEffect(()=>{
       AOS.init({
         duration: 1000

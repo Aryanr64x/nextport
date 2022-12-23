@@ -16,7 +16,7 @@ const SingleWork = ({ reverse, image, name, info, tag1, tag2, tag3, link }) => {
   console.log(classname)
   return (
     <div className={classname}>
-      <div className="flex flex-col flex-1  justify-center items-center lg:items-start" data-aos={(reverse) ? 'fade-left': 'fade-right'}>
+      <div className="flex flex-col flex-1  justify-center items-center lg:items-start" data-aos={(reverse) ? 'fade-left' : 'fade-right'}>
         <div className="text-3xl sm:text-4xl font-paytone">
           {name}
         </div>
@@ -41,14 +41,16 @@ const SingleWork = ({ reverse, image, name, info, tag1, tag2, tag3, link }) => {
 
         </div>
       </div>
-      <div className={'flex flex-col relative flex-1' + ((reverse) ? ' items-start' : ' items-end')} data-aos={(reverse) ? 'fade-right': 'fade-left'}>
-        <motion.img onMouseEnter={() => { setShowText(true) }} onMouseLeave={() => { setShowText(false) }} whileHover={{ translateX: 10, translateY: -10, opacity: 0.4 }} transition={{ duration: 0.5 }} className="h-full rounded-md cursor-pointer"
-          src={image} alt="" />
-        {
-          (showText) ? (<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} className="absolute top-1/2 left-1/2 -ml-24 text-xl font-semibold font-paytone">
-            VISIT LIVE WEBSITE
-          </motion.div>) : (<div></div>)
-        }
+      <div className={'flex flex-col relative flex-1' + ((reverse) ? ' items-start' : ' items-end')} data-aos={(reverse) ? 'fade-right' : 'fade-left'}>
+        <a href={link}>
+          <motion.img onMouseEnter={() => { setShowText(true) }} onMouseLeave={() => { setShowText(false) }} whileHover={{ translateX: 10, translateY: -10, opacity: 0.4 }} transition={{ duration: 0.5 }} className="h-full rounded-md cursor-pointer"
+            src={image} alt="" />
+          {
+            (showText) ? (<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} className="absolute top-1/2 left-1/2 -ml-24 text-xl font-semibold font-paytone">
+              VISIT LIVE WEBSITE
+            </motion.div>) : (<div></div>)
+          }
+        </a>
       </div>
     </div>
   )

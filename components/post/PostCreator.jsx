@@ -1,5 +1,5 @@
 const PostCreator = () => {
-    return (<div className="mt-8 flex">
+    return (<div className="mt-8 flex px-4 sm:px-12 lg:px-32">
         <div className="flex items-center">
             <div>
                 <img className="h-20 w-20 rounded-full mr-4" src="/businessman.jpg" />

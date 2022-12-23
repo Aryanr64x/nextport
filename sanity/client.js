@@ -1,9 +1,9 @@
 const sanityClient = require('@sanity/client')
 const client = sanityClient({
-  projectId: 'q8j4bmr9',
+  projectId: '6putk55p',
   dataset: 'production',
   apiVersion: '2021-03-25', // use current UTC date - see "specifying API version"!
-  token: 'skJC84h8yoYlFijpZqJt6Eohs1QQFGjNExpuY1QzpH0aEX6r0mf16It1CPAk5IhGfk0oak7tlAI6Li3V6UWNTOJynfOAr7CFXfurYe9ReMkzUosy2DBHxBYTanDTwThCXv0wlmusq0TRlk82AuPNrEpk94f1LO6u5qY7dwQmlj09Jou7H3p0', // or leave blank for unauthenticated usage
+  token: 'sk4misOd4oox9TgNMHYBoqXM9bXw7E0eDkjhs7vaQwXr7nJm0m7prw6qkIPCFRo5EjN0FyOCQog9PhrJtaEwjVS1RsO1lxArojOH4sQHDCsgIZ0YH4qnAA3x9uszYYJtWWRnS2j6BgBZmEYFSDlXjcWcph4tuJO4RAvMqbZxgA19eJCoojIC', // or leave blank for unauthenticated usage
   useCdn: true, // `false` if you want to ensure fresh data
 })
 

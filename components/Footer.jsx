@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="md:grid md:grid-flow-col md:columns-12">
                 <div className="col-span-4">
                     <div className="text-3xl font-paytone">
-                        SAKET
+                        SAKEDES
                     </div>
                     <div >
                         <div className="flex">
